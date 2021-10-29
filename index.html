@@ -2,17 +2,34 @@
 <html lang="en">
 <head>
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>      
-    <div id="one">
-        <header id="header">
-          <img id="header-img" src="https://img.icons8.com/ios-filled/2x/towel.png" alt="Towel logo" width="50">
-          <nav id="nav-bar">
-            <a class="nav-link" href="">Features</a>
-            <a class="nav-link" href="">How Its Created</a>
-            <a class="nav-link" href="">Pricing</a>
-          </nav>
-          <header>
-      </div> 
+  <div class="one">
+    <header id="header">
+      <img id="header-img" src="https://img.icons8.com/ios-filled/2x/towel.png" alt="Towel logo" width="50">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#video">Features</a></li>
+          <li><a class="nav-link" href="#">How Its Created</a></li>
+          <li><a class="nav-link" href="#">Pricing</a></li>
+        </ul>
+      </nav>
+      <header>
+  </div>
+  <div id="main-body">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">Email:</label> <br>
+      <input type="email" name="email" id="email" placeholder="Enter your email"> <br>
+      <input type="submit" id="submit" value="Get Started">
+    </form>
+    <div class="box1">
+      <img src="https://cdn-icons.flaticon.com/png/128/3832/premium/3832697.png?token=exp=1635488198~hmac=6f3eb1d36680f882feddb1228a14940f" alt="premium" width="75px">
+      <img src="https://cdn-icons.flaticon.com/png/128/3434/premium/3434121.png?token=exp=1635488056~hmac=8f69dfff44f91459105c06561c749226" alt="premium" width="75px">
+      <img src="https://cdn-icons-png.flaticon.com/512/4825/4825276.png" alt="premium" width="75px">
+    </div>
+    <iframe width="800px" height="400px" src="https://www.youtube.com/embed/r31oe7Sm0vI" title="YouTube video player" id="video">
+    </iframe>
+  </div> 
 </body>
 </html>
